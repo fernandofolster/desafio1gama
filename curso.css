@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1440px;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px; line-height: 22.98px;
+
+ }
+
+ header ul {
+    display: flex;
+ }
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header div img {
+    margin-left: 82px;
+}
+
+header ul li {
+    font-size: 20px;
+    color: #fdfdfd;
+}
+
+#contato {
+    margin-right: 103px;
+}
+
+#blog {
+    margin-right: 37px;
+}
+
+#cursos {
+    margin-right: 42px;
+}
+
+ a {
+    text-decoration: none;
+    color: #FDFDFD
+
+ }
+ header {
+     background-color: #2E948A;
+     width: 1440px;
+     height: 117px;
+     box-shadow: 0px 3px 7px rgb(0, 0, 0, 0.25);
+ }
+
+ footer {
+    display: flex;
+    background-color: #419488;
+    position: absolute;
+    width: 1440px;
+    height: 207px;
+    left: 0px;
+    top: 2990px;
+    align-items: flex-start;
+}
+
+footer img {
+    margin-left: 128px;
+    margin-top: 53px;
+}
+
+#rodmeio {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 183px;
+    margin-top: 53px;
+    margin-right: 320px;
+    line-height: 30px;
+
+
+}
+
+#queroserprof {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 178px;
+    text-align: center;
+}
+
+#retangulo12 {
+    width: 289px;
+    height: 51px;
+    top: 50px;
+    left: 1014px;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 10px;
+    position: absolute;
+}
+
+#outrolink {
+    line-height: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    margin-right: 178px;
+    text-align: center;
+}
+
+#retangulo13 {
+   position: absolute;
+   width: 289px;
+   height: 51px;
+   top: 114px;
+   bottom: 1014px;
+   border-radius: 62px;
+   border: 2px solid #FFF;
+   box-sizing: border-box;
+   padding: 10px;
+}

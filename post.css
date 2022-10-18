@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1440px;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px; line-height: 22.98px;
+
+ }
+
+ header ul {
+    display: flex;
+ }
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header div img {
+    margin-left: 82px;
+}
+
+header ul li {
+    font-size: 20px;
+    color: #fdfdfd;
+}
+
+#contato {
+    margin-right: 103px;
+}
+
+#blog {
+    margin-right: 37px;
+}
+
+#cursos {
+    margin-right: 42px;
+}
+
+ a {
+    text-decoration: none;
+    color: #FDFDFD
+
+ }
+ header {
+     background-color: #2E948A;
+     width: 1440px;
+     height: 117px;
+     box-shadow: 0px 3px 7px rgb(0, 0, 0, 0.25);
+ }
+
+h1 {
+        font-style: normal;
+        font-family: 'Ubuntu';
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 57px;
+        color: #FF4081;
+        text-align: center;
+        margin-top: 111px;
+}
+
+h5 {
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9d9d9d;
+
+}
+
+#fotopost {
+    width: 1032px;
+    height: 465px;
+    top: 381px;
+    left: 204px;
+    background-color: #c4c4c4;
+    position: absolute;
+
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: Ubuntu;
+    color: #419488;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+p {
+    font-family: ubuntu;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20.68px;
+    color: #000;
+    font-feature-settings: "kern"off;
+}
+
+.flex {
+    width: 1440px;
+    height: 899px;
+    top: 2082px;
+    left: 0px;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+    display: flex;
+    position: absolute;
+}
+
+.flex h2 {
+        position: absolute;
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 57px;
+        align-items: center;
+        color: #FF4081;
+}
+
+.flex div {
+    margin: 15px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+
+
+ footer {
+    display: flex;
+    background-color: #419488;
+    position: absolute;
+    width: 1440px;
+    height: 207px;
+    left: 0px;
+    top: 2990px;
+    align-items: flex-start;
+}
+
+footer img {
+    margin-left: 128px;
+    margin-top: 53px;
+}
+
+#rodmeio {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 183px;
+    margin-top: 53px;
+    margin-right: 320px;
+    line-height: 30px;
+
+
+}
+
+#queroserprof {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 178px;
+    text-align: center;
+}
+
+#retangulo12 {
+    width: 289px;
+    height: 51px;
+    top: 50px;
+    left: 1014px;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 10px;
+    position: absolute;
+}
+
+#outrolink {
+    line-height: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    margin-right: 178px;
+    text-align: center;
+}
+
+#retangulo13 {
+   position: absolute;
+   width: 289px;
+   height: 51px;
+   top: 114px;
+   bottom: 1014px;
+   border-radius: 62px;
+   border: 2px solid #FFF;
+   box-sizing: border-box;
+   padding: 10px;
+}
