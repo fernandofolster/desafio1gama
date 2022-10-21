@@ -8,18 +8,19 @@
 
 ul {
     list-style: none;
-    font-size: 20px; line-height: 22.98px;
+    font-size: 20px;
+    line-height: 22.98px;
 
- }
+}
 
- header ul {
+header ul {
     display: flex;
- }
+}
 
 header {
-display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header div img {
@@ -27,8 +28,12 @@ header div img {
 }
 
 header ul li {
-    font-size: 20px;
-    color: #fdfdfd;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 23px;
+   text-transform: uppercase;
+   color: #fdfdfd;
 }
 
 #contato {
@@ -41,28 +46,155 @@ header ul li {
 
 #cursos {
     margin-right: 42px;
+
 }
 
- a {
+ul li a {
     text-decoration: none;
-    color: #FDFDFD
+    color: #fff;
+}
 
- }
- header {
-     background-color: #2E948A;
-     width: 1440px;
-     height: 117px;
-     box-shadow: 0px 3px 7px rgb(0, 0, 0, 0.25);
- }
+h5 a {
+   text-decoration: none;
+   color: #ff4081;
+}
 
- footer {
+header {
+    background-color: #2E948A;
+    width: 1440px;
+    height: 117px;
+    box-shadow: 0px 3px 7px rgb(0, 0, 0, 0.25);
+}
+
+.container {
+    display: flex;
+    border: 1px solid #0000;
+    width: 1440px;
+    height: 542px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 {
+   flex:1;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 55px;
+   line-height: 63px;
+   color: #ff4081;
+   margin-bottom: 19px;
+   width: 512px;
+   height: 126px;
+   left: 206px;
+   top: 210px;
+}
+
+.container p {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 23px;
+   color: #555;
+   width: 450px;
+      
+  
+}
+
+.aulas {
+    width: 1440px;
+    height: 1235px;
+    top: 659px;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+}
+
+.retangulo20, .retangulo21, .retangulo22 {
+    width: 462px;
+    height: 261px;
+    border: 3px solid #8e8e8e;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-left: 213px;
+    float: left;
+    margin-right: 100px;
+}
+
+.circulo1, .circulo2, .circulo3 {
+    box-sizing: border-box;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.triangulo1, .triangulo2, .triangulo3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100px;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 40px solid #ddd;
+    border-bottom: 20px solid transparent;
+    margin-left: 30px;
+    margin-top: 22px;
+    
+}
+
+.linha {
+    width: 1244px;
+    height: 3px;
+    background-color: #c4c4c4;
+    margin-left: 98px;
+    margin-top: 73px;
+
+}
+
+h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ff4081;
+}
+
+.aula1 {
+    margin-top: 5%;
+}
+
+.aula2,
+.aula3 {
+    margin-top: 3%;
+}
+
+.aulap {
+    margin-right: 10%;
+}
+
+video {
+    width: 40%;
+    margin-left: 12%;
+    float: left;
+    margin-right: 5%;
+}
+
+footer {
     display: flex;
     background-color: #419488;
     position: absolute;
     width: 1440px;
     height: 207px;
     left: 0px;
-    top: 2990px;
+    top: 1894px;
     align-items: flex-start;
 }
 
@@ -79,8 +211,11 @@ footer img {
     margin-top: 53px;
     margin-right: 320px;
     line-height: 30px;
+}
 
-
+li a:hover {
+    color: rgb(190, 189, 189);
+    transition: 300ms;
 }
 
 #queroserprof {

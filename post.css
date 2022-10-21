@@ -8,18 +8,19 @@
 
 ul {
     list-style: none;
-    font-size: 20px; line-height: 22.98px;
+    font-size: 20px;
+    line-height: 22.98px;
 
- }
+}
 
- header ul {
+header ul {
     display: flex;
- }
+}
 
 header {
-display: flex;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header div img {
@@ -27,8 +28,12 @@ header div img {
 }
 
 header ul li {
-    font-size: 20px;
-    color: #fdfdfd;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 23px;
+   text-transform: uppercase;
+   color: #fdfdfd;
 }
 
 #contato {
@@ -43,17 +48,22 @@ header ul li {
     margin-right: 42px;
 }
 
- a {
+ul li a {
     text-decoration: none;
-    color: #FDFDFD
+    color: #fff;
+}
 
- }
- header {
-     background-color: #2E948A;
-     width: 1440px;
-     height: 117px;
-     box-shadow: 0px 3px 7px rgb(0, 0, 0, 0.25);
- }
+h5 a {
+   text-decoration: none;
+   color: #ff4081;
+}
+
+header {
+    background-color: #2E948A;
+    width: 1440px;
+    height: 117px;
+    box-shadow: 0px 3px 7px rgb(0, 0, 0, 0.25);
+}
 
 h1 {
         font-style: normal;
@@ -88,6 +98,16 @@ h5 {
 
 }
 
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    text-align: center;
+    color: #ff4081;
+}
+
 h3 {
     font-weight: 500;
     font-size: 26px;
@@ -96,52 +116,113 @@ h3 {
     color: #419488;
     align-items: center;
     text-align: center;
-
-
 }
 
 p {
     font-family: ubuntu;
     font-weight: 300;
     font-size: 18px;
-    line-height: 20.68px;
+    line-height: 25px;
     color: #000;
     font-feature-settings: "kern"off;
 }
 
-.total {
-    width: 1440px;
-    display: flex;
-    flex-direction: column;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-    width: 1440px;
-    height: 899px;
-    top: 2082px;
-    left: 0px;
-    background-color: #f6f6f6;
-}
-
 .post {
-    flex:2;
+    width: 1032px;
+    height: 1971px;
+    margin-left: 204px;
 }
 
 .flex {
-    flex:1;
-
+    width: 1440px;
+    height: 899px;
+    top: 2082px;
+    background-color: #f6f6f6;
 }
 
- footer {
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+.flex h4 {
+    color: #FF4081;
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 700;
+    text-align: center;
+    font-style: normal;
+}
+
+.flex p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    align-items: center;
+    color: #000;
+    width: 90%;
+    margin-left: 30px;
+}
+
+.retangulo13 {
+    width: 233px;
+    height: 51px;
+    top: 1391px;
+    padding: 10px;
+    background: #FF4081;
+    border-radius: 62px;
+    align-items: center;
+    margin-left: 75px;
+}
+
+.retangulo14 {
+    width: 233px;
+    height: 51px;
+    left: 623px;
+    top: 1389px;
+    padding: 10px;
+    background: #FF4081;
+    border-radius: 62px;
+    margin-left: 90px;
+}
+
+.retangulo15 {
+    width: 233px;
+    height: 51px;
+    left: 1043px;
+    top: 1389px;
+    padding: 10px;
+    background: #FF4081;
+    border-radius: 62px;
+    margin-left: 90px;
+}
+
+span a {
+    text-decoration: none;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+footer {
     display: flex;
     background-color: #419488;
     position: absolute;
     width: 1440px;
     height: 207px;
     left: 0px;
-    top: 2990px;
+    top: 3100px;
     align-items: flex-start;
 }
 
@@ -158,8 +239,11 @@ footer img {
     margin-top: 53px;
     margin-right: 320px;
     line-height: 30px;
+}
 
-
+li a:hover {
+    color: rgb(190, 189, 189);
+    transition: 300ms;
 }
 
 #queroserprof {

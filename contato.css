@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1440px;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    line-height: 22.98px;
+}
+
+header ul {
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div img {
+    margin-left: 82px;
+}
+
+header ul li {
+   font-weight: 700;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 23px;
+   text-transform: uppercase;
+   color: #fdfdfd;
+}
+
+#contato {
+    margin-right: 103px;
+}
+
+#blog {
+    margin-right: 37px;
+}
+
+#cursos {
+    margin-right: 42px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background-color: #2E948A;
+    width: 1440px;
+    height: 117px;
+    box-shadow: 0px 3px 7px rgb(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ff4081;
+    margin-bottom: 10%;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+
+input, textarea {
+    border: 1px solid #686868;
+    border-radius: 7px;
+    outline: 0;
+}
+
+textarea {
+    resize: none;
+    width: 493px;
+    height: 193px;
+    margin-top: 1%;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    height: 32px;
+    padding: 10px;
+    margin-bottom: 4%;
+}
+
+.contato div img {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#botao {
+    background-color: #ff4081;
+    color: #FFF;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 800;
+    text-align: center;
+    width: 108px;
+    height: 32px;
+    border-radius: 50px;
+    border: 0;
+    margin-top: 15px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+#botao:hover {
+    color:#cfb48f;
+}
+
+ footer {
+    display: flex;
+    background-color: #419488;
+    position: absolute;
+    width: 1440px;
+    height: 207px;
+    left: 0px;
+    top: 742px;
+    align-items: flex-start;
+}
+
+footer img {
+    margin-left: 128px;
+    margin-top: 53px;
+}
+
+#rodmeio {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 183px;
+    margin-top: 53px;
+    margin-right: 320px;
+    line-height: 30px;
+}
+
+li a:hover {
+    color: rgb(190, 189, 189);
+    transition: 300ms;
+}
+
+#queroserprof {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 178px;
+    text-align: center;
+}
+
+#retangulo12 {
+    width: 289px;
+    height: 51px;
+    top: 50px;
+    left: 1014px;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 10px;
+    position: absolute;
+}
+
+#outrolink {
+    line-height: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    margin-right: 178px;
+    text-align: center;
+}
+
+#retangulo13 {
+   position: absolute;
+   width: 289px;
+   height: 51px;
+   top: 114px;
+   bottom: 1014px;
+   border-radius: 62px;
+   border: 2px solid #FFF;
+   box-sizing: border-box;
+   padding: 10px;
+}

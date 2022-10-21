@@ -396,8 +396,12 @@ article h5 {
          margin-top: 53px;
          margin-right: 320px;
          line-height: 30px;
-
      }
+
+     li a:hover {
+        color: rgb(190, 189, 189);
+        transition: 300ms;
+    }
 
      #queroserprof {
          font-weight: 400;
