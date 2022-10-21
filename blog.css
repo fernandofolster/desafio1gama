@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1440px;
+}
+
+/* CABEÇALHO */
+ul{
+    list-style: none;
+    font-size: 20px; line-height: 22.98px;
+}
+
+header ul{
+    display: flex;
+}
+
+header{
+    width: 1440px;
+    height: 117px;
+    background-color: #2E948A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header div img{
+    margin-left: 82px;
+}
+
+header ul li{
+    font-size: 20px;
+    color: #fdfdfd;
+}
+
+#contato{
+    margin-right: 103px;
+}
+
+#blog{
+    margin-right: 37px;
+}
+
+#cursos{
+    margin-right: 42px;
+}
+
+a{
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+/* CONTEÚDO */
+.container {
+   width: 1440px;
+   display: flex;
+   width: auto;
+    
+}
+section div h1{
+    color: #2E948A;
+    font-size: 47px;
+    margin-top: 122px;
+    margin-left: 239px;
+}
+.container div img{
+    margin-left: 125px;
+    margin-top: 48px;
+    width: 405px;
+    height: 405px;
+}
+.container div p{
+    width: 461px;
+    height: 110px;
+    margin-left: 239px;
+    box-sizing: content-box;
+    padding-top: 40px;
+    
+}
+.container1{
+    margin-top: 89px;
+    display: flex;
+    background-color: #E5E5E5;
+    width: 1440px;
+}
+
+.container2{
+    display: flex;
+    background-color: #E5E5E5;
+    width: 1440px;
+}
+.container3{
+    display: flex;
+    background-color: #E5E5E5;
+    width: 1440px;
+    height: 900px;
+}
+.ret1{
+    background: #C4C4C4;
+    width: 518px;
+    height: 259px;
+    margin-top: 109px;
+    margin-bottom: 19px;
+    margin-left: 171px;
+    margin-right: 120px;
+}
+.ret2{
+    background: #C4C4C4;
+    width: 518px;
+    height: 259px;
+    margin-top: 109px;
+    margin-right: 113px;
+    margin-bottom: 19px;
+}
+#titulo1{
+    margin-left: 171px;
+    margin-bottom: 19px;
+    color: #FF4081;
+    font-size: 30px;
+}
+#titulo2{
+    margin-bottom: 19px;
+    color: #FF4081;
+    font-size: 30px;
+}
+#paragrafo1{
+    margin-left: 173px;
+    max-width: 516px;    
+    margin-right: 0;
+    color: #000000;
+
+}
+#paragrafo2{
+    max-width: 516px; 
+    color: #000000;   
+}
+
+
+ 
+/* RODAPÉ */
+footer{
+    display: flex;
+    background-color: #2E948A;
+    position: absolute;
+    width: 1440px;
+    height: 207px;
+    left: 0px;
+    top: 2222px;
+    align-items: flex-start;
+    margin-top: 170px ;
+    
+}
+
+footer img{
+    margin-left: 128px;
+    margin-top: 53px;
+}
+
+#rodmeio{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 183px;
+    margin-top: 53px;
+    margin-right: 320px;
+    line-height: 30px;
+}
+
+#queroserprof{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#retangulo12 {
+    width: 289px;
+    height: 51px;
+    top: 50px;
+    left: 1014px;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 10px;
+    position: absolute;
+}
+
+#outrolink {
+    line-height: 23px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    margin-right: 178px;
+    text-align: center;
+}
+
+#retangulo13 {
+   position: absolute;
+   width: 289px;
+   height: 51px;
+   top: 114px;
+   bottom: 1014px;
+   border-radius: 62px;
+   border: 2px solid #FFF;
+   box-sizing: border-box;
+   padding: 10px;
+}
